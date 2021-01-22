@@ -782,6 +782,7 @@ enum RBACPermissions
     //
     // custom permissions 1000+
     // ashamane permissions 2000+
+    RBAC_PERM_COMMAND_WORLD_CHAT                             = 1009,
     RBAC_PERM_COMMAND_DEBUG_MOVEMENT_FORCE                   = 2000,
     RBAC_PERM_COMMAND_DEBUG_APPLY_MOVEMENT_FORCE             = 2001,
     RBAC_PERM_COMMAND_DEBUG_REMOVE_MOVEMENT_FORCE            = 2002,
