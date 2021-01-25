@@ -18,6 +18,7 @@
 // This is where scripts' loading functions should be declared:
 void AddSC_custom_npcs();
 void AddSC_worldchat();
+void AddSC_solocraft();
 
 // ADM declaration begin
 // ADM declaration end
@@ -28,6 +29,7 @@ void AddCustomScripts()
 {
     AddSC_custom_npcs();
     AddSC_worldchat();
+    AddSC_solocraft();
 
     // ADM call begin
     // ADM call end
