@@ -62,7 +62,7 @@ private:
 
 	void ApplyBuffs(Player *player, Map *map, int difficulty, int numInGroup) {
 		ClearBuffs(player, map);
-		if (difficulty > 1) {
+		if (difficulty > 1 && numInGroup < 5) {
 			//InstanceMap *instanceMap = map->ToInstanceMap();
 			//InstanceScript *instanceScript = instanceMap->GetInstanceScript();
 

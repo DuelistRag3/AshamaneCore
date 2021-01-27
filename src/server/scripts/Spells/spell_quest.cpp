@@ -660,14 +660,30 @@ class spell_q12683_take_sputum_sample : public SpellScriptLoader
 
 // https://www.wowhead.com/quest=24861/last-rites-first-rites Last Rites First Rites
 // 24861 Last Rites First Rites
-
-enum Quest24816Data
+/*
+enum Quest24861Data
 {
     SPELL_FUNERAL_OFFERING              = 71898,
     ITEM_WATER_PITCHER                  = 50465,
     NPC_MULGORE_OFFERING_CREDIT_BUNNY   = 38438
 };
 
+class spell_q24861_last_rites_first_rites : public SpellScriptLoader
+{
+    public:
+        class spell_q24861_last_rites_first_rites_SpellScript : public SpellScript
+        {
+            PrepareSpellScript(spell_q24861_last_rites_first_rites_SpellScript)
+
+
+            void HandleDummy(SpellEffIndex /effIndex)
+            {
+                Item* castItem = GetCastItem();
+                Unit* caster = GetCaster();
+            }
+        };
+};
+*/
 // http://www.wowhead.com/quest=12851 Going Bearback
 // 54798 FLAMING Arrow Triggered Effect
 enum Quest12851Data
